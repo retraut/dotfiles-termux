@@ -10,5 +10,5 @@ General dotfiles for my server
 ### How do I get set up? ###
 
 ```
-git clone https://github.com/retraut/dotfiles.git ~/.dotfiles && ~/.dotfiles/dots install && chsh $USER -s $(which zsh)
+git clone https://github.com/retraut/dotfiles-termux.git ~/.dotfiles && ~/.dotfiles/dots install && chsh $USER -s $(which zsh)
 ```
