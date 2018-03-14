@@ -1,0 +1,18 @@
+startup_message off
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%{= Kb} %{= Kb} %{-} %-Lw%{= bW}%n%f %t%{-}%+Lw "
+defscrollback 100000
+# for shift UP and DOWN arrows
+bindkey ^[[1;5A prev
+bindkey ^[[1;5B next
+#
+# # for ctrl right and left arrows
+# bindkey ^[[1;5D prev
+# bindkey ^[[1;5C next
+#
+#
+#  # for shift right and left arrows
+#  bindkey ^[[1;2D prev
+#  bindkey ^[[1;2C next
+#

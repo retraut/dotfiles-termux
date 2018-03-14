@@ -1,0 +1,8 @@
+[user]
+        name = retraut
+        email = retraut@gmail.com
+[core]
+        editor = vim
+        excludesfile = ~/.gitignore
+[push]
+	default = matching

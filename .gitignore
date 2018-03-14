@@ -1,0 +1,3 @@
+*.swp
+files/.vim/bundle/*
+files/.ssh/*
