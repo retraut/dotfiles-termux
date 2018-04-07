@@ -92,3 +92,5 @@ function add_alias() {
         echo "alias ADDED to $ALIASFILE"
     fi
 }
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

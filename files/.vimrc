@@ -27,16 +27,16 @@ colorscheme solarized
 
 
 " Tab navigation like Firefox.
-nnoremap <C-S-tab> :tabprevious<CR>
-nnoremap <C-tab>   :tabnext<CR>
-nnoremap <C-t>     :tabnew<CR>
-
+nnoremap <C-P> :tabprevious<CR>
+nnoremap <C-N> :tabNext<CR>
+nnoremap <C-t> :tabnew<CR>
+nnoremap <C-w> :tabclose<CR>
 "map <M-> gT
 "map <M-> gt
 
 
 " Paste mod on
-"set paste
+set paste
 
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*.pyc,*.gitignore,*.db        " Linux/MacOSX
 
@@ -58,9 +58,9 @@ call vundle#begin()
 " call vundle#begin()
 
 " let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim.git'
 Plugin 'itchyny/lightline.vim'
-
+Plugin 'mhinz/vim-signify'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
