@@ -1,4 +1,4 @@
-#PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:${HOME}/.dotfiles
+PATH=$PATH:${HOME}/.dotfiles/bin/bin
 
 #alias for cd
 alias ..='cd ../'
@@ -12,7 +12,6 @@ export EDITOR=/usr/bin/vim
 alias ev='vim ~/.vimrc'
 alias ez='vim ~/.aliasesrc'
 alias et='vim ~/.tmux.conf'
-alias es='vim ~/.screenrc'
 
 #for git
 alias gcl='git clone'
@@ -28,7 +27,7 @@ alias gb='git branch'
 alias gf='git fetch'
 alias fixup='git commit --fixup'
 
-#for some commands
+#for some commands 
 alias h='history'
 alias upgrade='sudo apt-get update && sudo apt-get upgrade'
 alias wget='noglob wget'

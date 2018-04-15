@@ -23,14 +23,19 @@ function gitsubmoduleUpdate() {
 }
 
 function installVimPackages() {
-
 	vim +PluginInstall +qall
 }
 
+function installTmuxWithPlugins {
+
+    git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+        
+
+}
 # Need to do in ansible module for centos and ubuntu ( debian ) servers
 function installPackages() {
 
-    pkg install vim coreutils wget htop curl zsh fzf 
+    pkg install vim coreutils wget htop curl zsh fzf ruby 
 
 }
 
@@ -40,6 +45,7 @@ function install() {
 	installPackages
 	gitsubmoduleUpdate
 	installVimPackages
+    installTmuxWithPlugins
 }
 case "$1" in
 

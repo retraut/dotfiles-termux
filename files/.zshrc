@@ -49,7 +49,7 @@ HIST_STAMPS="mm/dd/yyyy"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git docker tmuxinator )
+plugins=(git docker zsh-syntax-highlighting )
 
 # User configuration
 
@@ -65,7 +65,7 @@ export LANG=en_US.UTF-8
 if [[ -n $SSH_CONNECTION ]]; then
    export EDITOR='vim'
 else
-   export EDITOR='mvim'
+   export EDITOR='vim'
 fi
 
 # Compilation flags
